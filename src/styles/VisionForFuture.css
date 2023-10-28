@@ -1,0 +1,65 @@
+.visionForFuture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.visionForFuture .title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.visionForFuture .bulletPoints {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.visionForFuture .bulletPoints .point {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.visionForFuture .interactiveElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.visionForFuture .interactiveElement .roadmap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.visionForFuture .interactiveElement .roadmap .milestone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.visionForFuture .interactiveElement .roadmap .milestone:hover {
+    background-color: #eee;
+}
