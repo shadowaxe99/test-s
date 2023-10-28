@@ -1,0 +1,52 @@
+.callToActionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.callToActionTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.callToActionSubtitle {
+    font-size: 1.5em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.callToActionBulletPoints {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.callToActionInteractiveElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.callToActionInteractiveElement button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.callToActionInteractiveElement button:hover {
+    background-color: #0056b3;
+}

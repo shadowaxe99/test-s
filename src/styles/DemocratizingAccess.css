@@ -1,0 +1,64 @@
+.democratizingAccess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.democratizingAccess h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.democratizingAccess h2 {
+    font-size: 2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.democratizingAccess p {
+    font-size: 1.2em;
+    color: #999;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.democratizingAccess .bulletPoints {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.democratizingAccess .bulletPoints li {
+    font-size: 1.2em;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.democratizingAccess .interactiveElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.democratizingAccess .interactiveElement h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.democratizingAccess .interactiveElement p {
+    font-size: 1.2em;
+    color: #999;
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+.real-time-simulation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.real-time-simulation h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.real-time-simulation p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+}
+
+.real-time-simulation .simulation-container {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.real-time-simulation .simulation-container .ai-agent {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff6347;
+    border-radius: 50%;
+}
